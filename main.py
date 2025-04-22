@@ -1,6 +1,6 @@
 from data_processor import DataProcessor 
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     # Инициализация обработчика данных 
     processor = DataProcessor('var5.csv') 
 

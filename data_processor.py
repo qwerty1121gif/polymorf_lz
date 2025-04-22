@@ -6,7 +6,7 @@ class DataProcessor:
         self.df = pd.read_csv(file_path)
         self.removed_duplicates = 0
 
-    def split_by_city(self):
+    def split_by_city(self): 
         """Разделяет датасет на Минск и другие города"""
         minsk = self.df[self.df['Место оплаты'] == 'Минск']
         other = self.df[self.df['Место оплаты'] != 'Минск']
